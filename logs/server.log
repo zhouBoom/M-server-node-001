@@ -11,3 +11,87 @@
 2025-11-01T15:04:37.174Z - Broadcasted message from client-1762009476166-n1itf7yq4 to 1 clients
 2025-11-01T15:04:37.177Z - Client disconnected: client-1762009476166-n1itf7yq4
 2025-11-01T15:04:37.178Z - Client disconnected: client-1762009476166-572udmfjp
+2025-11-01 23:36:33 [INFO] Server running on port 3000
+2025-11-01 23:36:46 [INFO] Generated new clientId: client-1762011406615-gwiihukwo
+2025-11-01 23:36:46 [INFO] Client connected: client-1762011406615-gwiihukwo, total clients: 1
+2025-11-01 23:36:46 [INFO] Sent welcome message to client-1762011406615-gwiihukwo
+2025-11-01 23:36:46 [INFO] Generated new clientId: client-1762011406619-mjh2mj6rr
+2025-11-01 23:36:46 [INFO] Client connected: client-1762011406619-mjh2mj6rr, total clients: 2
+2025-11-01 23:36:46 [INFO] Sent welcome message to client-1762011406619-mjh2mj6rr
+2025-11-01 23:36:46 [INFO] Client disconnected: client-1762011406619-mjh2mj6rr, total clients: 1
+2025-11-01 23:36:46 [INFO] Client disconnected: client-1762011406615-gwiihukwo, total clients: 0
+2025-11-01 23:36:47 [INFO] Generated new clientId: client-1762011407124-if06n6bl8
+2025-11-01 23:36:47 [INFO] Client connected: client-1762011407124-if06n6bl8, total clients: 1
+2025-11-01 23:36:47 [INFO] Sent welcome message to client-1762011407124-if06n6bl8
+2025-11-01 23:36:47 [ERROR] Invalid JSON from client-1762011407124-if06n6bl8: This is not valid JSON Unexpected token 'T', "This is no"... is not valid JSON {
+  "stack": "SyntaxError: Unexpected token 'T', \"This is no\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at WebSocket.<anonymous> (/Users/tal/Desktop/homeWork/M-server-node-001/dist/socketManager.js:50:42)\n    at WebSocket.emit (node:events:518:28)\n    at Receiver.receiverOnMessage (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/websocket.js:1220:20)\n    at Receiver.emit (node:events:518:28)\n    at Receiver.dataMessage (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:596:14)\n    at Receiver.getData (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:496:10)\n    at Receiver.startLoop (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:167:16)\n    at Receiver._write (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:94:10)\n    at writeOrBuffer (node:internal/streams/writable:572:12)"
+}
+2025-11-01 23:36:48 [INFO] Client disconnected: client-1762011407124-if06n6bl8, total clients: 0
+2025-11-01 23:36:48 [INFO] Generated new clientId: client-1762011408628-00vsqngm0
+2025-11-01 23:36:48 [INFO] Client connected: client-1762011408628-00vsqngm0, total clients: 1
+2025-11-01 23:36:48 [INFO] Sent welcome message to client-1762011408628-00vsqngm0
+2025-11-01 23:36:48 [INFO] Client disconnected: client-1762011408628-00vsqngm0, total clients: 0
+2025-11-01 23:36:49 [INFO] Client connected: client-1762011408628-00vsqngm0, total clients: 1
+2025-11-01 23:36:49 [INFO] Sent welcome message to client-1762011408628-00vsqngm0
+2025-11-01 23:36:49 [INFO] Client disconnected: client-1762011408628-00vsqngm0, total clients: 0
+2025-11-01 23:36:49 [INFO] Generated new clientId: client-1762011409639-vpkaig3r6
+2025-11-01 23:36:49 [INFO] Client connected: client-1762011409639-vpkaig3r6, total clients: 1
+2025-11-01 23:36:49 [INFO] Sent welcome message to client-1762011409639-vpkaig3r6
+2025-11-01 23:36:49 [INFO] Generated new clientId: client-1762011409640-6z8668cus
+2025-11-01 23:36:49 [INFO] Client connected: client-1762011409640-6z8668cus, total clients: 2
+2025-11-01 23:36:49 [INFO] Sent welcome message to client-1762011409640-6z8668cus
+2025-11-01 23:36:49 [INFO] Generated new clientId: client-1762011409641-amufhhggc
+2025-11-01 23:36:49 [INFO] Client connected: client-1762011409641-amufhhggc, total clients: 3
+2025-11-01 23:36:49 [INFO] Sent welcome message to client-1762011409641-amufhhggc
+2025-11-01 23:36:49 [INFO] Received message from client-1762011409639-vpkaig3r6: {
+  "type": "chat",
+  "text": "Hello from Client 1"
+}
+2025-11-01 23:36:49 [INFO] Broadcasted message from client-1762011409639-vpkaig3r6 to 2 clients
+2025-11-01 23:36:49 [INFO] Client disconnected: client-1762011409639-vpkaig3r6, total clients: 2
+2025-11-01 23:36:49 [INFO] Client disconnected: client-1762011409641-amufhhggc, total clients: 1
+2025-11-01 23:36:49 [INFO] Client disconnected: client-1762011409640-6z8668cus, total clients: 0
+2025-11-01 23:39:58 [INFO] Generated new clientId: client-1762011598886-3abnj7vxv
+2025-11-01 23:39:58 [INFO] Client connected: client-1762011598886-3abnj7vxv, total clients: 1
+2025-11-01 23:39:58 [INFO] Sent welcome message to client-1762011598886-3abnj7vxv
+2025-11-01 23:39:58 [INFO] Generated new clientId: client-1762011598888-5ary7r7yr
+2025-11-01 23:39:58 [INFO] Client connected: client-1762011598888-5ary7r7yr, total clients: 2
+2025-11-01 23:39:58 [INFO] Sent welcome message to client-1762011598888-5ary7r7yr
+2025-11-01 23:39:58 [INFO] Received message from client-1762011598886-3abnj7vxv: {
+  "type": "chat",
+  "text": "Hello from Client1"
+}
+2025-11-01 23:39:58 [INFO] Broadcasted message from client-1762011598886-3abnj7vxv to 1 clients
+2025-11-01 23:39:58 [INFO] Client disconnected: client-1762011598888-5ary7r7yr, total clients: 1
+2025-11-01 23:39:58 [INFO] Client disconnected: client-1762011598886-3abnj7vxv, total clients: 0
+2025-11-01 23:39:58 [INFO] Generated new clientId: client-1762011598897-ypinulmxc
+2025-11-01 23:39:58 [INFO] Client connected: client-1762011598897-ypinulmxc, total clients: 1
+2025-11-01 23:39:58 [INFO] Sent welcome message to client-1762011598897-ypinulmxc
+2025-11-01 23:39:58 [ERROR] Invalid JSON from client-1762011598897-ypinulmxc: This is not valid JSON Unexpected token 'T', "This is no"... is not valid JSON {
+  "stack": "SyntaxError: Unexpected token 'T', \"This is no\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at WebSocket.<anonymous> (/Users/tal/Desktop/homeWork/M-server-node-001/dist/socketManager.js:50:42)\n    at WebSocket.emit (node:events:518:28)\n    at Receiver.receiverOnMessage (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/websocket.js:1220:20)\n    at Receiver.emit (node:events:518:28)\n    at Receiver.dataMessage (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:596:14)\n    at Receiver.getData (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:496:10)\n    at Receiver.startLoop (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:167:16)\n    at Receiver._write (/Users/tal/Desktop/homeWork/M-server-node-001/node_modules/ws/lib/receiver.js:94:10)\n    at writeOrBuffer (node:internal/streams/writable:572:12)"
+}
+2025-11-01 23:40:00 [INFO] Client disconnected: client-1762011598897-ypinulmxc, total clients: 0
+2025-11-01 23:40:00 [INFO] Generated new clientId: client-1762011600902-axqz6joc1
+2025-11-01 23:40:00 [INFO] Client connected: client-1762011600902-axqz6joc1, total clients: 1
+2025-11-01 23:40:00 [INFO] Sent welcome message to client-1762011600902-axqz6joc1
+2025-11-01 23:40:00 [INFO] Client disconnected: client-1762011600902-axqz6joc1, total clients: 0
+2025-11-01 23:40:01 [INFO] Client connected: client-1762011600902-axqz6joc1, total clients: 1
+2025-11-01 23:40:01 [INFO] Sent welcome message to client-1762011600902-axqz6joc1
+2025-11-01 23:40:01 [INFO] Client disconnected: client-1762011600902-axqz6joc1, total clients: 0
+2025-11-01 23:40:01 [INFO] Generated new clientId: client-1762011601411-hqeep47z0
+2025-11-01 23:40:01 [INFO] Client connected: client-1762011601411-hqeep47z0, total clients: 1
+2025-11-01 23:40:01 [INFO] Sent welcome message to client-1762011601411-hqeep47z0
+2025-11-01 23:40:01 [INFO] Generated new clientId: client-1762011601412-e0k96d1fi
+2025-11-01 23:40:01 [INFO] Client connected: client-1762011601412-e0k96d1fi, total clients: 2
+2025-11-01 23:40:01 [INFO] Sent welcome message to client-1762011601412-e0k96d1fi
+2025-11-01 23:40:01 [INFO] Generated new clientId: client-1762011601412-x91cjst6r
+2025-11-01 23:40:01 [INFO] Client connected: client-1762011601412-x91cjst6r, total clients: 3
+2025-11-01 23:40:01 [INFO] Sent welcome message to client-1762011601412-x91cjst6r
+2025-11-01 23:40:01 [INFO] Received message from client-1762011601411-hqeep47z0: {
+  "type": "chat",
+  "text": "Hello from Client 1"
+}
+2025-11-01 23:40:01 [INFO] Broadcasted message from client-1762011601411-hqeep47z0 to 2 clients
+2025-11-01 23:40:01 [INFO] Client disconnected: client-1762011601411-hqeep47z0, total clients: 2
+2025-11-01 23:40:01 [INFO] Client disconnected: client-1762011601412-x91cjst6r, total clients: 1
+2025-11-01 23:40:01 [INFO] Client disconnected: client-1762011601412-e0k96d1fi, total clients: 0
