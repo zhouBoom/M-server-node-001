@@ -1,0 +1,13 @@
+2025-11-01T15:03:47.987Z - Server started on port 3000
+2025-11-01T15:04:23.580Z - Client connected: client-1762009463580-tahqbduqf
+2025-11-01T15:04:23.581Z - Client connected: client-1762009463581-49zyqsaeb
+2025-11-01T15:04:24.589Z - Received from client-1762009463580-tahqbduqf: {"type":"draw","x":100,"y":200}
+2025-11-01T15:04:24.590Z - Broadcasted message from client-1762009463580-tahqbduqf to 1 clients
+2025-11-01T15:04:24.595Z - Client disconnected: client-1762009463580-tahqbduqf
+2025-11-01T15:04:24.595Z - Client disconnected: client-1762009463581-49zyqsaeb
+2025-11-01T15:04:36.166Z - Client connected: client-1762009476166-n1itf7yq4
+2025-11-01T15:04:36.166Z - Client connected: client-1762009476166-572udmfjp
+2025-11-01T15:04:37.174Z - Received from client-1762009476166-n1itf7yq4: {"type":"draw","x":100,"y":200}
+2025-11-01T15:04:37.174Z - Broadcasted message from client-1762009476166-n1itf7yq4 to 1 clients
+2025-11-01T15:04:37.177Z - Client disconnected: client-1762009476166-n1itf7yq4
+2025-11-01T15:04:37.178Z - Client disconnected: client-1762009476166-572udmfjp
