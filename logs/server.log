@@ -734,3 +734,1185 @@
 2025-11-02 00:35:41 [INFO] Client disconnected: test-client-2, total clients: 2
 2025-11-02 00:35:41 [INFO] Client disconnected: test-client-1, total clients: 1
 2025-11-02 00:35:41 [INFO] Client disconnected: test-client-3, total clients: 0
+2025-11-02 12:50:46 [INFO] Client connected: test-client-2, total clients: 1
+2025-11-02 12:50:46 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:50:46 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 12:50:46 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:50:46 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 12:50:46 [INFO] Sent welcome message to test-client-3
+2025-11-02 12:50:46 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:46 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 12:50:46 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:46 [INFO] Sent room history to test-client-1 for room room-test-001, 1 messages
+2025-11-02 12:50:46 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:46 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:50:46 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:50:46 [INFO] Sent room history to test-client-2 for room room-test-001, 1 messages
+2025-11-02 12:50:46 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 12:50:46 [INFO] Created room: room-test-002
+2025-11-02 12:50:46 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 12:50:46 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 12:50:46 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 12:50:46 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 12:50:46 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 12:50:47 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 12:50:47 [INFO] Deleted room: room-test-002
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 12:50:47 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 12:50:47 [INFO] Deleted room: room-test-001
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 12:50:47 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Created room: room-test-001
+2025-11-02 12:50:47 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 12:50:47 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 12:50:47 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 12:50:47 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:50:47 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 12:50:47 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 12:50:47 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 12:50:47 [INFO] Deleted room: room-test-001
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 12:50:47 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:50:47 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:50:47 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-3
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Created room: room-test-001
+2025-11-02 12:50:47 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 12:50:47 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 12:50:47 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Added client test-client-3 to room room-test-001, total clients in room: 3
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 3 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Sent room history to test-client-3 for room room-test-001, 0 messages
+2025-11-02 12:50:47 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 2
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 12:50:47 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 12:50:47 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:50:47 [INFO] Removed client test-client-3 from room room-test-001, total clients in room: 0
+2025-11-02 12:50:47 [INFO] Deleted room: room-test-001
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 12:50:47 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:50:47 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Created room: room-test-001
+2025-11-02 12:50:47 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 12:50:47 [WARN] Client test-client-1 tried to send message without joining a room
+2025-11-02 12:50:47 [INFO] Closed old connection for client: test-client-1
+2025-11-02 12:50:47 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 12:50:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:50:47 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:47 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 12:50:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:50:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 12:50:47 [WARN] Cannot broadcast message from test-client-1: not in a room
+2025-11-02 12:50:48 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 12:50:48 [INFO] Closed old connection for client: test-client-2
+2025-11-02 12:50:48 [INFO] Client connected: test-client-2, total clients: 1
+2025-11-02 12:50:48 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:50:48 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 12:50:48 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:50:48 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:50:48 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:50:48 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:50:48 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:50:56 [INFO] Client disconnected: test-client-1, total clients: 0
+2025-11-02 12:54:34 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:54:34 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:54:34 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:54:34 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:54:34 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 12:54:34 [INFO] Sent welcome message to test-client-3
+2025-11-02 12:54:34 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:34 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:54:34 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:34 [INFO] Sent room history to test-client-2 for room room-test-001, 1 messages
+2025-11-02 12:54:34 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 12:54:34 [INFO] Created room: room-test-002
+2025-11-02 12:54:34 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 12:54:34 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 12:54:34 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 12:54:34 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:34 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 12:54:34 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:34 [INFO] Sent room history to test-client-1 for room room-test-001, 1 messages
+2025-11-02 12:54:34 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 12:54:34 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 12:54:35 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 12:54:35 [INFO] Deleted room: room-test-002
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 12:54:35 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 12:54:35 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 12:54:35 [INFO] Deleted room: room-test-001
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 12:54:35 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:54:35 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:54:35 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:35 [INFO] Created room: room-test-001
+2025-11-02 12:54:35 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 12:54:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 12:54:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 12:54:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 12:54:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:54:35 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:54:35 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:35 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 12:54:35 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 12:54:35 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 12:54:35 [INFO] Deleted room: room-test-001
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 12:54:35 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:54:35 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:54:35 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:54:35 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:54:35 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 12:54:35 [INFO] Sent welcome message to test-client-3
+2025-11-02 12:54:35 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:35 [INFO] Created room: room-test-001
+2025-11-02 12:54:35 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 12:54:35 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:35 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:54:35 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:35 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 12:54:36 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:36 [INFO] Added client test-client-3 to room room-test-001, total clients in room: 3
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 3 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Sent room history to test-client-3 for room room-test-001, 0 messages
+2025-11-02 12:54:36 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 2
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 12:54:36 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 12:54:36 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 12:54:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:54:36 [INFO] Removed client test-client-3 from room room-test-001, total clients in room: 0
+2025-11-02 12:54:36 [INFO] Deleted room: room-test-001
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 12:54:36 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 12:54:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:54:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:36 [INFO] Created room: room-test-001
+2025-11-02 12:54:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 12:54:36 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 12:54:36 [WARN] Client test-client-1 tried to send message without joining a room
+2025-11-02 12:54:36 [INFO] Closed old connection for client: test-client-1
+2025-11-02 12:54:36 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 12:54:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:54:36 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 12:54:36 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:36 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 12:54:36 [WARN] Cannot broadcast message from test-client-1: not in a room
+2025-11-02 12:54:36 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 12:54:36 [INFO] Closed old connection for client: test-client-2
+2025-11-02 12:54:36 [INFO] Client connected: test-client-2, total clients: 1
+2025-11-02 12:54:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 12:54:36 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 12:54:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 12:54:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 12:54:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 12:54:36 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 12:54:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 12:54:44 [INFO] Client disconnected: test-client-1, total clients: 0
+2025-11-02 13:09:34 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:09:34 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:09:34 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:09:34 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:09:34 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:09:34 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:09:34 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:34 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 13:09:34 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:34 [INFO] Sent room history to test-client-1 for room room-test-001, 1 messages
+2025-11-02 13:09:34 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:34 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:09:34 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:34 [INFO] Sent room history to test-client-2 for room room-test-001, 1 messages
+2025-11-02 13:09:34 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 13:09:34 [INFO] Created room: room-test-002
+2025-11-02 13:09:34 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 13:09:34 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 13:09:34 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 13:09:34 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:09:34 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 13:09:35 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:09:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:09:35 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:09:35 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 13:09:35 [INFO] Deleted room: room-test-002
+2025-11-02 13:09:35 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 13:09:35 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:09:35 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:09:35 [INFO] Deleted room: room-test-001
+2025-11-02 13:09:35 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:09:35 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:09:35 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:09:35 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:09:35 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:35 [INFO] Created room: room-test-001
+2025-11-02 13:09:35 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:09:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:09:35 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:09:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:09:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:09:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 13:09:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:09:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 13:09:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:09:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 13:09:36 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 13:09:36 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 0
+2025-11-02 13:09:36 [INFO] Deleted room: room-test-001
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-1, total clients: 0
+2025-11-02 13:09:36 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:09:36 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:09:36 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:09:36 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Created room: room-test-001
+2025-11-02 13:09:36 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:09:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:09:36 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Added client test-client-3 to room room-test-001, total clients in room: 3
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 3 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Sent room history to test-client-3 for room room-test-001, 0 messages
+2025-11-02 13:09:36 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 2
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:09:36 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 13:09:36 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:09:36 [INFO] Removed client test-client-3 from room room-test-001, total clients in room: 0
+2025-11-02 13:09:36 [INFO] Deleted room: room-test-001
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:09:36 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:09:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Created room: room-test-001
+2025-11-02 13:09:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:09:36 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 13:09:36 [WARN] Client test-client-1 tried to send message without joining a room
+2025-11-02 13:09:36 [INFO] Closed old connection for client: test-client-1
+2025-11-02 13:09:36 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:09:36 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 13:09:36 [WARN] Cannot broadcast message from test-client-1: not in a room
+2025-11-02 13:09:36 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:09:36 [INFO] Closed old connection for client: test-client-2
+2025-11-02 13:09:36 [INFO] Client connected: test-client-2, total clients: 1
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:09:36 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:09:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:09:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:09:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:09:36 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:09:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:09:44 [INFO] Client disconnected: test-client-1, total clients: 0
+2025-11-02 13:12:46 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:12:46 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:12:46 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:12:46 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:12:46 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:12:46 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:12:46 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:46 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 13:12:46 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:12:46 [INFO] Sent room history to test-client-1 for room room-test-001, 1 messages
+2025-11-02 13:12:46 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:46 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:12:46 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:12:46 [INFO] Sent room history to test-client-2 for room room-test-001, 1 messages
+2025-11-02 13:12:46 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 13:12:46 [INFO] Created room: room-test-002
+2025-11-02 13:12:46 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 13:12:46 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 13:12:46 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 13:12:46 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:12:46 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:12:47 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 13:12:47 [INFO] Deleted room: room-test-002
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 13:12:47 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:12:47 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:12:47 [INFO] Deleted room: room-test-001
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:12:47 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:12:47 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:47 [INFO] Created room: room-test-001
+2025-11-02 13:12:47 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:12:47 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:12:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 13:12:47 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 13:12:47 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:12:47 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:47 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 13:12:47 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 13:12:47 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 0
+2025-11-02 13:12:47 [INFO] Deleted room: room-test-001
+2025-11-02 13:12:47 [INFO] Closed old connection for client: test-client-1
+2025-11-02 13:12:47 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:12:47 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:12:47 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:12:47 [INFO] Client connected: test-client-3, total clients: 2
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:12:47 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:47 [INFO] Created room: room-test-001
+2025-11-02 13:12:47 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:47 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:12:47 [INFO] Client connected: test-client-1, total clients: 3
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:12:47 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:12:47 [INFO] Closed old connection for client: test-client-2
+2025-11-02 13:12:47 [INFO] Client connected: test-client-2, total clients: 3
+2025-11-02 13:12:47 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:12:47 [INFO] Client disconnected: test-client-2, total clients: 2
+2025-11-02 13:12:47 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:47 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:12:47 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:12:47 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 13:12:47 [WARN] Client test-client-1 tried to send message without joining a room
+2025-11-02 13:12:48 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:12:48 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 13:12:48 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:12:48 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:48 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 13:12:48 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:12:48 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 13:12:48 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:12:48 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:12:48 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:12:48 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:12:48 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:12:48 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:12:48 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:12:48 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:12:48 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 13:12:48 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:12:48 [INFO] Sent room history to test-client-2 for room room-test-001, 1 messages
+2025-11-02 13:12:48 [INFO] Client connected: test-client-1, total clients: 3
+2025-11-02 13:12:48 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:12:48 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:12:48 [INFO] Deleted room: room-test-001
+2025-11-02 13:12:48 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:12:48 [INFO] Client disconnected: test-client-2, total clients: 2
+2025-11-02 13:12:48 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:12:48 [INFO] Client disconnected: test-client-3, total clients: 0
+2025-11-02 13:17:11 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:17:11 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:17:11 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:17:11 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:17:11 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:17:11 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:17:11 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:11 [INFO] Created room: room-test-001
+2025-11-02 13:17:11 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:17:11 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:11 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:17:11 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:11 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:17:11 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:17:11 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:17:11 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 13:17:11 [INFO] Created room: room-test-002
+2025-11-02 13:17:11 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 13:17:11 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 13:17:11 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 13:17:11 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:17:11 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:17:12 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 13:17:12 [INFO] Deleted room: room-test-002
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 13:17:12 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:17:12 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:17:12 [INFO] Deleted room: room-test-001
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:17:12 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:17:12 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:17:12 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:12 [INFO] Created room: room-test-001
+2025-11-02 13:17:12 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:17:12 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:17:12 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 13:17:12 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 13:17:12 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:17:12 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:17:12 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:12 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 13:17:12 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:17:12 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:17:12 [INFO] Deleted room: room-test-001
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:17:12 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:17:12 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:17:12 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:17:12 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:17:12 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:17:12 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:17:12 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:12 [INFO] Created room: room-test-001
+2025-11-02 13:17:12 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:17:12 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:12 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:17:12 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:17:12 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:17:13 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:13 [INFO] Added client test-client-3 to room room-test-001, total clients in room: 3
+2025-11-02 13:17:13 [INFO] Broadcasted room user count to 3 clients in room room-test-001
+2025-11-02 13:17:13 [INFO] Sent room history to test-client-3 for room room-test-001, 0 messages
+2025-11-02 13:17:13 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 2
+2025-11-02 13:17:13 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:17:13 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:17:14 [INFO] Removed client test-client-3 from room room-test-001, total clients in room: 1
+2025-11-02 13:17:14 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:14 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:17:14 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:17:14 [INFO] Deleted room: room-test-001
+2025-11-02 13:17:14 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:17:14 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:17:14 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:17:14 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:17:14 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:17:14 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:17:14 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:14 [INFO] Created room: room-test-001
+2025-11-02 13:17:14 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 13:17:14 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:17:14 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:17:14 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 13:17:14 [WARN] Client test-client-1 tried to send message without joining a room
+2025-11-02 13:17:14 [INFO] Closed old connection for client: test-client-1
+2025-11-02 13:17:14 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 13:17:14 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:17:14 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:17:14 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:14 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 13:17:14 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:17:14 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200
+}
+2025-11-02 13:17:14 [WARN] Cannot broadcast message from test-client-1: not in a room
+2025-11-02 13:17:14 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:17:14 [INFO] Closed old connection for client: test-client-2
+2025-11-02 13:17:14 [INFO] Client connected: test-client-2, total clients: 1
+2025-11-02 13:17:14 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:17:14 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:17:14 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:17:14 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:17:14 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:17:14 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:17:14 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:17:21 [INFO] Client disconnected: test-client-1, total clients: 0
+2025-11-02 13:29:34 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:29:34 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:29:34 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:29:34 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:29:34 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:29:34 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:29:34 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:34 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 2
+2025-11-02 13:29:34 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:29:34 [INFO] Sent room history to test-client-1 for room room-test-001, 1 messages
+2025-11-02 13:29:34 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:34 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:29:34 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:29:34 [INFO] Sent room history to test-client-2 for room room-test-001, 1 messages
+2025-11-02 13:29:34 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 13:29:34 [INFO] Created room: room-test-002
+2025-11-02 13:29:34 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 13:29:34 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 13:29:34 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 13:29:34 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:29:34 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 13:29:35 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:29:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:29:35 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:29:35 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 13:29:35 [INFO] Deleted room: room-test-002
+2025-11-02 13:29:35 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 13:29:35 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:29:35 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:29:35 [INFO] Deleted room: room-test-001
+2025-11-02 13:29:35 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:29:35 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:29:35 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:29:35 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:29:35 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:35 [INFO] Created room: room-test-001
+2025-11-02 13:29:35 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:29:35 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:29:35 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:29:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:29:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:29:35 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 13:29:35 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 13:29:36 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:29:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:29:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:29:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 13:29:36 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:29:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:29:36 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:29:36 [INFO] Deleted room: room-test-001
+2025-11-02 13:29:36 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:29:36 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:29:36 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:29:36 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:29:36 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:29:36 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:29:36 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:29:36 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:36 [INFO] Created room: room-test-001
+2025-11-02 13:29:36 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:29:36 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:29:36 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:36 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:29:36 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:29:36 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:36 [INFO] Added client test-client-3 to room room-test-001, total clients in room: 3
+2025-11-02 13:29:36 [INFO] Broadcasted room user count to 3 clients in room room-test-001
+2025-11-02 13:29:36 [INFO] Sent room history to test-client-3 for room room-test-001, 0 messages
+2025-11-02 13:29:37 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 2
+2025-11-02 13:29:37 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:29:37 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:29:37 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:29:37 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:29:37 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 13:29:37 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 13:29:37 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:29:37 [INFO] Removed client test-client-3 from room room-test-001, total clients in room: 0
+2025-11-02 13:29:37 [INFO] Deleted room: room-test-001
+2025-11-02 13:29:37 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:29:37 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:29:37 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:29:37 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:29:37 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:29:37 [INFO] Created room: room-test-001
+2025-11-02 13:29:37 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 13:29:37 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:29:37 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:29:44 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:29:44 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:29:44 [INFO] Deleted room: room-test-001
+2025-11-02 13:29:44 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:29:44 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:33:29 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:33:29 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:33:29 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:33:29 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:33:29 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:33:29 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:33:29 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:29 [INFO] Created room: room-test-001
+2025-11-02 13:33:29 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:33:29 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:29 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:33:29 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:29 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:33:29 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:33:29 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:33:29 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-002"
+}
+2025-11-02 13:33:29 [INFO] Created room: room-test-002
+2025-11-02 13:33:29 [INFO] Added client test-client-3 to room room-test-002, total clients in room: 1
+2025-11-02 13:33:29 [INFO] Broadcasted room user count to 1 clients in room room-test-002
+2025-11-02 13:33:29 [INFO] Sent room history to test-client-3 for room room-test-002, 0 messages
+2025-11-02 13:33:29 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:33:29 [INFO] Broadcasted message from test-client-1 to 1 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:33:30 [INFO] Removed client test-client-3 from room room-test-002, total clients in room: 0
+2025-11-02 13:33:30 [INFO] Deleted room: room-test-002
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 0 clients in room room-test-002
+2025-11-02 13:33:30 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:33:30 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:33:30 [INFO] Deleted room: room-test-001
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:33:30 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:33:30 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:33:30 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:30 [INFO] Created room: room-test-001
+2025-11-02 13:33:30 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:33:30 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 100,
+  "y": 200,
+  "color": "#ff0000"
+}
+2025-11-02 13:33:30 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 300,
+  "y": 400,
+  "color": "#00ff00"
+}
+2025-11-02 13:33:30 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Received message from test-client-1: {
+  "type": "draw",
+  "x": 500,
+  "y": 600,
+  "color": "#0000ff"
+}
+2025-11-02 13:33:30 [INFO] Broadcasted message from test-client-1 to 0 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:33:30 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:33:30 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:30 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Sent room history to test-client-2 for room room-test-001, 3 messages
+2025-11-02 13:33:30 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 1
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:33:30 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:33:30 [INFO] Deleted room: room-test-001
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Client disconnected: test-client-2, total clients: 0
+2025-11-02 13:33:30 [INFO] Client connected: test-client-1, total clients: 1
+2025-11-02 13:33:30 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:33:30 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:33:30 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:33:30 [INFO] Client connected: test-client-3, total clients: 3
+2025-11-02 13:33:30 [INFO] Sent welcome message to test-client-3
+2025-11-02 13:33:30 [INFO] Received message from test-client-1: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:30 [INFO] Created room: room-test-001
+2025-11-02 13:33:30 [INFO] Added client test-client-1 to room room-test-001, total clients in room: 1
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Sent room history to test-client-1 for room room-test-001, 0 messages
+2025-11-02 13:33:30 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:30 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 2
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:33:30 [INFO] Received message from test-client-3: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:30 [INFO] Added client test-client-3 to room room-test-001, total clients in room: 3
+2025-11-02 13:33:30 [INFO] Broadcasted room user count to 3 clients in room room-test-001
+2025-11-02 13:33:30 [INFO] Sent room history to test-client-3 for room room-test-001, 0 messages
+2025-11-02 13:33:31 [INFO] Removed client test-client-1 from room room-test-001, total clients in room: 2
+2025-11-02 13:33:31 [INFO] Broadcasted room user count to 2 clients in room room-test-001
+2025-11-02 13:33:31 [INFO] Client disconnected: test-client-1, total clients: 2
+2025-11-02 13:33:31 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 1
+2025-11-02 13:33:31 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:31 [INFO] Client disconnected: test-client-2, total clients: 1
+2025-11-02 13:33:31 [INFO] Client connected: test-client-1, total clients: 2
+2025-11-02 13:33:31 [INFO] Sent welcome message to test-client-1
+2025-11-02 13:33:31 [INFO] Removed client test-client-3 from room room-test-001, total clients in room: 0
+2025-11-02 13:33:31 [INFO] Deleted room: room-test-001
+2025-11-02 13:33:31 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:33:31 [INFO] Client disconnected: test-client-3, total clients: 1
+2025-11-02 13:33:31 [INFO] Client connected: test-client-2, total clients: 2
+2025-11-02 13:33:31 [INFO] Sent welcome message to test-client-2
+2025-11-02 13:33:31 [INFO] Received message from test-client-2: {
+  "type": "join",
+  "roomId": "room-test-001"
+}
+2025-11-02 13:33:31 [INFO] Created room: room-test-001
+2025-11-02 13:33:31 [INFO] Added client test-client-2 to room room-test-001, total clients in room: 1
+2025-11-02 13:33:31 [INFO] Broadcasted room user count to 1 clients in room room-test-001
+2025-11-02 13:33:31 [INFO] Sent room history to test-client-2 for room room-test-001, 0 messages
+2025-11-02 13:33:39 [INFO] Client disconnected: test-client-1, total clients: 1
+2025-11-02 13:33:39 [INFO] Removed client test-client-2 from room room-test-001, total clients in room: 0
+2025-11-02 13:33:39 [INFO] Deleted room: room-test-001
+2025-11-02 13:33:39 [INFO] Broadcasted room user count to 0 clients in room room-test-001
+2025-11-02 13:33:39 [INFO] Client disconnected: test-client-2, total clients: 0
