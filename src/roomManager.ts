@@ -127,6 +127,19 @@ class RoomManager {
 
         return room.clients.size;
     }
+    
+    /**
+     * 根据房间ID获取房间
+     * @param roomId 房间ID
+     * @returns 房间对象或undefined
+     */
+    getRoomById(roomId: string): Room | undefined {
+        if (!roomId) {
+            throw new Error('roomId is required');
+        }
+
+        return this.rooms.get(roomId);
+    }
 
     /**
      * 添加消息到房间历史记录

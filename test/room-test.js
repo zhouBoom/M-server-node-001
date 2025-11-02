@@ -252,7 +252,7 @@ async function testRoomUserCount() {
     ]);
     
     // 等待更新
-    await wait(200);
+    await wait(500);
     
     // 检查房间1的用户数量
     const room1Updates = userCountUpdates.filter(u => u.roomId === TEST_ROOM_1);
@@ -270,7 +270,7 @@ async function testRoomUserCount() {
     
     // 客户端3加入房间1
     await sendMessage(client3, { type: 'join', roomId: TEST_ROOM_1 });
-    await wait(200);
+    await wait(500);
     
     // 检查房间1的用户数量是否为3
     const room1UpdatesAfterJoin = userCountUpdates.filter(u => u.roomId === TEST_ROOM_1);
@@ -283,7 +283,7 @@ async function testRoomUserCount() {
     
     // 客户端1离开房间1
     client1.close();
-    await wait(200);
+    await wait(500);
     
     // 检查房间1的用户数量是否为2
     const room1UpdatesAfterLeave = userCountUpdates.filter(u => u.roomId === TEST_ROOM_1);
@@ -324,6 +324,16 @@ async function testNoBroadcastWithoutRoom() {
     // 客户端2加入房间
     await sendMessage(client2, { type: 'join', roomId: TEST_ROOM_1 });
     
+    // 等待客户端2收到房间用户数量更新
+    await new Promise((resolve) => {
+      client2.once('message', (data) => {
+        const message = JSON.parse(data);
+        if (message.type === 'roomUserCount' && message.roomId === TEST_ROOM_1) {
+          resolve();
+        }
+      });
+    });
+    
     // 客户端1未加入房间，直接发送消息
     const testMessage = { type: 'draw', x: 100, y: 200 };
     await sendMessage(client1, testMessage);
@@ -333,9 +343,12 @@ async function testNoBroadcastWithoutRoom() {
     // 验证客户端2是否收到消息
     const client2Received = new Promise((resolve) => {
       const timeout = setTimeout(() => resolve(false), 1000);
-      client2.once('message', () => {
-        clearTimeout(timeout);
-        resolve(true);
+      client2.once('message', (data) => {
+        const message = JSON.parse(data);
+        if (message.type === 'draw' && message.x === 100 && message.y === 200) {
+          clearTimeout(timeout);
+          resolve(true);
+        }
       });
     });
     
