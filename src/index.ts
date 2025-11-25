@@ -1,7 +1,9 @@
 import express from 'express';
 import http from 'http';
+import WebSocket from 'ws';
 import logger from './logger';
 import eventManager from './eventManager';
+import socketManager from './socketManager';
 
 const app = express();
 const server = http.createServer(app);
@@ -126,6 +128,31 @@ app.get('/clients', (req, res) => {
     }
 });
 
+// 配置WebSocket服务器
+const wss = new WebSocket.Server({ server });
+
+wss.on('connection', (ws, req) => {
+    try {
+        // 从URL中获取clientId
+        const urlParams = new URLSearchParams(req.url?.split('?')[1] || '');
+        const clientId = urlParams.get('clientId');
+        
+        if (!clientId) {
+            logger.error('WebSocket connection failed: clientId is required');
+            ws.close(4001, 'clientId is required');
+            return;
+        }
+        
+        logger.info(`WebSocket connection established for client: ${clientId}`);
+        
+        // 处理WebSocket连接
+        socketManager.handleConnection(ws, clientId);
+    } catch (error) {
+        logger.error('Error handling WebSocket connection', error);
+        ws.close(5000, 'Internal server error');
+    }
+});
+
 // 启动服务器
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
@@ -136,6 +163,7 @@ server.listen(PORT, () => {
 - POST /publish/:clientId - Publish event
 - GET /history - Get event history
 - GET /clients - Get active clients count`);
+    logger.info(`WebSocket server is running on ws://localhost:${PORT}`);
 });
 
 // 处理未捕获的异常
@@ -150,16 +178,24 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 // 处理进程终止
-process.on('SIGINT', () => {
+process.on('SIGINT', async () => {
     logger.info('Received SIGINT, shutting down...');
+    
+    // 关闭所有WebSocket连接
+    await socketManager.closeAllConnections();
+    
     server.close(() => {
         logger.info('Server closed');
         process.exit(0);
     });
 });
 
-process.on('SIGTERM', () => {
+process.on('SIGTERM', async () => {
     logger.info('Received SIGTERM, shutting down...');
+    
+    // 关闭所有WebSocket连接
+    await socketManager.closeAllConnections();
+    
     server.close(() => {
         logger.info('Server closed');
         process.exit(0);
