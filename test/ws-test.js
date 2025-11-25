@@ -25,8 +25,8 @@ function startTest1() {
             }
         };
         
-        client1 = new WebSocket('ws://localhost:3000');
-        client2 = new WebSocket('ws://localhost:3000');
+        client1 = new WebSocket('ws://localhost:3000?clientId=test-client-1');
+        client2 = new WebSocket('ws://localhost:3000?clientId=test-client-2');
         
         client1.on('open', () => {
             console.log('Client1 connected');
@@ -89,7 +89,7 @@ function startTest2() {
             if (client) client.close();
         };
         
-        client = new WebSocket('ws://localhost:3000');
+        client = new WebSocket('ws://localhost:3000?clientId=test-client-invalid-json');
         
         client.on('open', () => {
             console.log('Client connected');
@@ -146,7 +146,7 @@ function startTest3() {
         };
         
         // 第一个连接
-        client = new WebSocket('ws://localhost:3000');
+        client = new WebSocket('ws://localhost:3000?clientId=test-client-reconnect');
         
         client.on('message', (data) => {
             try {
@@ -241,7 +241,7 @@ function startTest4() {
         
         // 创建多个客户端
         for (let i = 0; i < totalClients; i++) {
-            const client = new WebSocket('ws://localhost:3000');
+            const client = new WebSocket(`ws://localhost:3000?clientId=test-client-${i+1}`);
             const clientName = `Client ${i+1}`;
             
             client.on('open', () => {
